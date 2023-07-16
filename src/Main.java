@@ -25,7 +25,9 @@ public class Main {
         //int d = sc.nextInt();
         long startTime = System.currentTimeMillis();
         Sorting sorting = new Sorting();
-        sorting.selectionSort(arr);
+        sorting.quickSort(arr);
+        //ArrayModule arrayModule = new ArrayModule();
+        //System.out.println(arrayModule.trappingRainWater_Approach3(arr));
         printArray(arr);
 
 
