@@ -1,5 +1,9 @@
 import Array.ArrayModule;
 import Array.Sorting;
+import Backtracking.FindBinary;
+import Backtracking.KnightTour;
+import Backtracking.Parenthesis;
+import Backtracking.TowerOfHanoi;
 
 import java.util.Scanner;
 
@@ -14,7 +18,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Scanner sc = new Scanner(System.in);
+        /*Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];
 
@@ -28,10 +32,13 @@ public class Main {
         sorting.quickSort(arr);
         //ArrayModule arrayModule = new ArrayModule();
         //System.out.println(arrayModule.trappingRainWater_Approach3(arr));
-        printArray(arr);
+        printArray(arr);*/
 
 
 
-        System.out.println("Time took -> " + (System.currentTimeMillis()-startTime) +" ms");
+        //System.out.println("Time took -> " + (System.currentTimeMillis()-startTime) +" ms");
+
+        Parenthesis parenthesis = new Parenthesis();
+        parenthesis.generateParenthesis(3);
     }
 }
