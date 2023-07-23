@@ -1,9 +1,6 @@
 import Array.ArrayModule;
 import Array.Sorting;
-import Backtracking.FindBinary;
-import Backtracking.KnightTour;
-import Backtracking.Parenthesis;
-import Backtracking.TowerOfHanoi;
+import Backtracking.*;
 
 import java.util.Scanner;
 
@@ -38,7 +35,7 @@ public class Main {
 
         //System.out.println("Time took -> " + (System.currentTimeMillis()-startTime) +" ms");
 
-        Parenthesis parenthesis = new Parenthesis();
-        parenthesis.generateParenthesis(3);
+        SubSetSum subSetSum = new SubSetSum();
+        subSetSum.getSubSetSumEqualToTarget();
     }
 }
